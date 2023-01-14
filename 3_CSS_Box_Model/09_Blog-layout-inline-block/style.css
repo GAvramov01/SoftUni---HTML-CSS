@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(238, 238, 238);
+    color: rgb(51, 51, 51);
+}
+header, section, footer {
+    width: 727px;
+    padding-left: 30px;
+    padding-top: 15px;
+}
+img {
+    width: 76%;
+}
+aside {
+    float: right;
+    width: 270px;
+    position: relative;
+    bottom: 200px;
+    right: 230px;
+}

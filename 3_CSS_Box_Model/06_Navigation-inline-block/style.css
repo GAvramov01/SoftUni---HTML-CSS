@@ -1,0 +1,27 @@
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+header ul li {
+    display: inline-block;
+    position: relative;
+    left: 200px;
+    bottom: 45px;
+}
+a {
+    color: green;
+    text-decoration: none;
+    margin: 0 10px;
+}
+header, 
+hr, 
+main {
+    margin: 0px 50px;
+}
+header {
+    margin-top: 50px;
+}
+hr {
+    background-color: #000;
+    height: 2px;
+}
