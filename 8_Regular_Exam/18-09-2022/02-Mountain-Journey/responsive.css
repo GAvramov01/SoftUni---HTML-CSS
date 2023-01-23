@@ -1,0 +1,73 @@
+@media only screen and (max-width: 600px) {
+
+    /* --- Header Section --- */
+
+    header nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 15px 0;
+    }
+    header nav ul li {
+        margin: 2px 0;
+    }
+    header .header-title {
+        padding: 0;
+    }
+
+    /* --- Team Description Section --- */
+
+    .team-description {
+        display: flex;
+        justify-content: center;
+        padding: 20px 20px;
+    }
+
+    .team-description-wrapper {
+        padding: 0;
+        margin: 0;
+    }
+    .team-description-wrapper ul {
+        margin: 10px 20px;
+        padding: 10px 10px;
+        flex-wrap: wrap;
+    }
+    .team-description-wrapper ul li {
+        width: 35%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .team-description-wrapper ul li img{
+        width: 150px;
+        height: 150px;
+    }
+
+    /* --- Chouse Us Section --- */
+
+    .choose-us ul{
+        display: flex;
+        flex-direction: column;
+        padding: 0 100px;
+    }
+
+    /* --- Blog News Section --- */
+    .blog-news ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .blog-news .blog-list .item {
+        width: 80%;
+        height: 400px;
+        margin: 20px;
+    }
+    .blog-news .blog-list .item .content p {
+        font-size: small;
+    }
+}

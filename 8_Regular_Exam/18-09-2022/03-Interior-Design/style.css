@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap');
+
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* -- Header Section --- */
+
+header {
+    background-image: url(image/image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.interior-design {
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 200px;
+    height: 200px;
+    text-align: left;
+    padding: 20px;
+}
+.interior-design h1{
+    font-family: Roboto, serif;
+    font-size: 36px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.interior-design p {
+    font-weight: 200;
+    font-size: 15px;
+}
+.interior-design hr {
+    border: 2px solid #fff;
+    margin-left: 0;
+    width: 120px;
+}
+.interior-text {
+    background-image: linear-gradient(to right, #9d938b , #c9c7c6);
+    color: #fff;
+    font-weight: 200;
+    align-self: flex-end;
+    margin-right: 50px;
+    width: 250px;
+    height: 250px;
+    text-align: right;
+    padding: 20px;
+    font-size: large;
+}
+.interior-design,
+.interior-text {
+    box-shadow: 4px 6px 29px 0px rgba(0,0,0,0.75);
+}
+/* --- Main Section --- */
+
+.service {
+    width: 60vw;
+    padding: 80px;
+}
+.service h2,
+footer h3{
+    font-size: 36px;
+    font-weight: bold;
+    font-family: serif;
+    text-transform: uppercase;
+}
+.service ul {
+    padding: 0;
+}
+.service ul li{
+    list-style: none;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+}
+.service ul li i {
+    margin-right: 20px;
+}
+.visual {
+    text-transform: uppercase;
+}
+
+/* --- Main Footer --- */
+
+footer {
+    margin: 40px 0 20px 0;
+}
+footer h3{
+    margin: 0 0 0 80px;
+}
+footer hr {
+    border: 1px solid #000;
+}
+footer .contact {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 80px;
+}
+footer .contact p {
+    margin: 20px 10px;
+}
+.letter {
+    font-style: italic;
+}
+footer .contact-form {
+    margin-left: 80px;
+}
+footer .contact-form input {
+    border: none;
+    background-color: #9d938b;
+    padding: 10px 60px 10px 15px;
+}
+footer .contact-form button {
+    padding: 10px 20px;
+    margin-left: 20px;
+    background-color: #67784d;
+}
+input::placeholder,
+footer .contact-form button {
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* --- Aside Section ---  */
+
+aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #9d938b;
+}
+aside .first {
+    margin-top: 30px;
+}
+aside .last {
+    margin-bottom: 30px;
+}
+aside .simple-info .number {
+    color: #fff;
+    font-family: Roboto, sans-serif;
+    font-size: 80px;
+    font-weight: lighter;
+    font-style:normal;
+    position: relative;
+    top: 10px;
+}
+aside .simple-info p {
+    margin: 0;
+    padding: 0 0 0 30px;
+}
+
+
+
+
+

@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+:root {
+    --grey-text: rgb(128, 128, 128);
+    --paragraph-color: #484848;
+    --red-button-background-color: rgb(189, 65, 65);
+    --white-text: #fff;
+    --shadow-container: 15px 20px 22px 0px rgba(166,166,166,1);
+}
+body {
+    font-family: Mulish, sans-serif;
+    background-image: url(images/background.png);
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-and-last {
+    display: flex;
+    gap: 20px;
+}
+.container {
+    background-image: url(images/form-background.png);
+    background-size: contain;
+    width: 60rem;
+    height: 40rem;
+    border-radius: 2rem;
+    box-shadow: var(--shadow-container);
+}
+.form-container {
+    max-width: 25rem;
+    margin-left: 3rem;
+    margin-top: 80px;
+}
+p {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: x-large;
+    text-align: center;
+    color: var(--paragraph-color);
+}
+label {
+    color: grey;
+}
+input {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px 0;
+    border-radius: 2rem;
+    border: 1px solid var(--grey-text);
+}
+button {
+    text-transform: uppercase;
+    font-size: medium;
+    padding: 15px 30px ;
+    background-color: var(--red-button-background-color);
+    color: var(--white-text);
+    border: none;
+    border-radius: 30px;
+    margin: 0 auto;
+}
+.container-btn {
+    margin-top: 20px;
+    display: flex;
+}
+#fname,
+#lname {
+    width: 190px;
+}
+#email,
+#password,
+#conform_password {
+    width: 100%;
+}

@@ -1,0 +1,17 @@
+/* --- Main Grid --- */
+
+main {
+    display: grid;
+    grid-template-areas: 
+    "section aside"
+    "footer aside";
+}
+section {
+    grid-area: section;
+}
+aside {
+    grid-area: aside;
+}
+footer {
+    grid-area: footer;
+}
