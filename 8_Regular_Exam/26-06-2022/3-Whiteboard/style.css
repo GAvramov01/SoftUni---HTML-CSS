@@ -1,0 +1,211 @@
+:root {
+    --linear-header-shadow: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2));
+    --text-shadow: 5px 5px 5px #000;
+    --green-color: #b2f1dd;
+    --white-color: #fff;
+    --black-color: #000;
+}
+body {
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* -- Header section --- */
+
+header {
+    height: 900px;
+    background-image: var(--linear-header-shadow), url(image/computer-main.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+header nav {
+    display: flex;
+    justify-content: space-around;
+    gap: 500px;
+}
+.logo,
+.cart {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+header section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.action {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+header nav i {
+    font-size: 30px;
+    color: var(--white-color);
+}
+header nav p {
+    font-size: 30px;
+    color: var(--white-color);
+}
+header section h1 {
+    color: var(--white-color);
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+header section p {
+    color: var(--white-color);
+    text-align: center;
+    margin: 50px 0;
+    font-size: 30px;
+}
+header section button {
+    margin: 50px auto;
+    padding: 10px 15px;
+    border-radius: 3px;
+    border: none;
+    background-color: var(--green-color);
+    font-weight: bold;
+    font-size: x-large;
+    color: var(--white-color);
+}
+.action i {
+    color: var(--white-color);
+    font-size: 25px;
+}
+.logo i,
+.logo p,
+.cart i,
+.cart p,
+header section h1,
+header section p,
+.action p,
+.action i {
+    text-shadow: 5px 5px 5px #000;
+}
+
+/* -- Main Hustle Section --- */
+
+.hustle {
+    display: flex;
+    height: 600px;
+} 
+.hustle .right,
+.hustle .left {
+    flex-wrap: wrap;
+    width: 50vw;
+}
+.right h3,
+.case .left h3 {
+    font-size: 40px;
+    margin: 50px 0 0 50px;
+    padding: 0;
+}
+.right p {
+    font-size: 20px;
+    margin: 0 0 0 50px;
+}
+.right ul {
+    margin-top: 30px;
+    padding: 0 0 0 50px;
+}
+.right ul li{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 45px 0;
+}
+.right ul li p {
+    font-size: x-large;
+    margin: 0 0 0 20px;
+}
+.right ul li i {
+    font-size: 25px;
+    color: var(--green-color);
+}
+.hustle .left {
+    background-image: url(image/tablet.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* -- Main Case Section ---  */
+
+.case {
+    height: 600px;
+    display: flex;
+}
+.case .left,
+.case .right {
+    width: 50vw;
+    display: flex;
+    justify-content: space-around;
+}
+.case .left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.case .left h3 {
+    margin: 0;
+}
+.case .right {
+    background-image: url(image/pen.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.card-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+}
+.card-row {
+    display: flex;
+    flex-direction: column;
+}
+.card-row .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-info .card-row .container p {
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--green-color);
+    margin-top: 10px;
+}
+.container img {
+    width: 100px;
+}
+
+
+/* -- Footer Section ---  */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--green-color);
+}
+footer h4 {
+    font-weight: bold;
+    font-size: 30px;
+}
+.row-info {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+footer .all-info .row-info .container h5 {
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.all-info .row-info .container {
+    text-align: center;
+    width: 300px;
+}
+.text-info {
+    margin: 20px auto;
+}

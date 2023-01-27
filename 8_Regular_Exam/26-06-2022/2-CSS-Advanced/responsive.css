@@ -1,0 +1,16 @@
+@media only screen and (max-width: 600px) {
+    button {
+        display: none;
+    }
+    body, main, section {
+        margin: 0;
+        padding: 0;
+    }
+    main section {
+        display: flex;
+    }
+    main .left-to-right article {
+        border-radius: 70px;
+        padding: 30px;
+    }
+}
